@@ -1,0 +1,50 @@
+<style>
+
+    html {
+  width:100%;
+  height:100%;
+}
+
+body {
+  background:black;
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+@keyframes cortana {
+  0% {
+      width:65px;
+      height:65px;
+      box-shadow: 0 0 0 7px #00B7C3, 0 0 0 25px #1f445f;
+  }
+  
+  100% {
+      width:75px;
+      height:75px;
+      box-shadow: 0 0 0 7px #00B7C3, 0 0 0 15px #1f445f;
+  }
+}
+
+.cortana {
+  width:65px;
+  height:65px;
+  border-radius:50%;
+  box-shadow: 0 0 0 7px #00B7C3, 0 0 0 25px #1f445f;
+  animation: cortana 2s infinite ease-in alternate;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 150px;
+  font-family: monospace;
+  font-size: 3em;
+}
+</style>
+
+<h1>Coming soon :)</h1>
+<div class="cortana"></div>
